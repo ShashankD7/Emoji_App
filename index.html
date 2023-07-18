@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Emoji Browser</h1>
+  
+  <div class="filters">
+    <label for="category">Filter by Category:</label>
+    <select id="category" onchange="filterEmojis()">
+      <option value="">All</option>
+      <option value="people">People</option>
+      <option value="nature">Nature</option>
+      <option value="objects">Objects</option>
+      <option value="places">Places</option>
+    </select>
+  </div>
+  
+  <div id="emojiContainer" class="emoji-container"></div>
+  
+  <div class="pagination">
+    <button onclick="previousPage()">Previous</button>
+    <span id="currentPage"></span>
+    <button onclick="nextPage()">Next</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
