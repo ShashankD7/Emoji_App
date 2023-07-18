@@ -18,3 +18,4 @@ Emoji Browser is a web application that allows users to conveniently browse and 
 
 ## Preview
 
+https://shashankd7.github.io/Emoji_App/
